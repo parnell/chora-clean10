@@ -7,7 +7,7 @@ authors = ["leeparnell <152523161+leeparnell@users.noreply.github.com>"]
 description = ""
 name = "chora"
 readme = "README.md"
-version = "0.1.4"
+version = "0.2.0"
 
 [tool.poetry.dependencies]
 python = "^3.11"
