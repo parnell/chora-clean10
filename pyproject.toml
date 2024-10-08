@@ -4,10 +4,10 @@ requires = ["poetry-core"]
 
 [tool.poetry]
 authors = ["leeparnell <152523161+leeparnell@users.noreply.github.com>"]
-description = ""
+description = "Music recommender based on user preferences"
 name = "chora"
 readme = "README.md"
-version = "0.2.0"
+version = "0.2.5"
 
 [tool.poetry.dependencies]
 python = "^3.11"
