@@ -1,0 +1,39 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry]
+authors = ["leeparnell <152523161+leeparnell@users.noreply.github.com>"]
+description = ""
+name = "chora"
+readme = "README.md"
+version = "0.1.4"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+seaborn = "^0.13.2"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.2"
+plotly = "^5.24.1"
+matplotlib = "^3.9.2"
+yellowbrick = "^1.5"
+nbformat = "^5.10.4"
+spotipy = "^2.24.0"
+pi-conf = "^0.8.5.1"
+river = "^0.21.2"
+flask-cors = "^5.0.0"
+flask = "^3.0.3"
+pydantic = "^2.9.2"
+pandera = "^0.20.4"
+pyarrow = "^17.0.0"
+gunicorn = "^23.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+toml-sort = "^0.23.1"
+pandas-stubs = "^2.2.2.240909"
+
+[tool.tomlsort]
+all = true
+in_place = true
+overrides."tool.poetry.dependencies".first = ["python"]
